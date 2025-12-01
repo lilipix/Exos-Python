@@ -10,9 +10,10 @@ odd = 0
 
 for n in numbers:
   if n % 2 == 0:
-    peer += n
-  print()
+    peer += 1
   else:
-    odd += n
-print(f"Nombre de nombres pairs : {count(peer)})
+    odd += 1
+  
+print(f"Nombre de nombres pairs : {peer}")
+print(f"Nombre de nombres impairs : {odd}")
 
