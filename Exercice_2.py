@@ -7,7 +7,7 @@
 # Median of the above three numbers -
 # 25
 
-first_number = 25
+first_number = 30
 second_number = 15
 third_number = 35
 
