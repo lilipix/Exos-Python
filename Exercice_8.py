@@ -32,3 +32,15 @@
 # fizz
 # 49
 # buzz
+
+# Écrivez un programme Python qui itère les entiers de 1 à 50. Pour les multiples de trois, imprimez « Fizz » au lieu du nombre et pour les multiples de cinq, imprimez « Buzz ». Pour les nombres multiples de trois et cinq, imprimez « FizzBuzz ».
+for number in range(0, 51):
+  if number % 3 == 0 and number%5 == 0:
+    print("FizzBuzz")
+  elif number % 3 == 0:
+    print("Fizz")
+  elif number % 5 == 0:
+    print("Buzz")
+  else:
+    print(number)
+  
